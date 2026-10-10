@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         String[][] array = new String[4][4];
         int sum;
+        // ЗАДАНИЕ 3
         try {
             sum = takeArray(array);
             System.out.println(sum);
@@ -33,7 +34,7 @@ public class Main {
         }
         return sum;
     }
-    // ЗАДАНИЕ 3
+    // ЗАДАНИЕ 4
     public static void indexOutOfBoundsException() {
         int[] array = new int[3];
         try {
